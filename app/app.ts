@@ -6,13 +6,13 @@ import { TrnPage } from './pages/trn';
 
 @Component({
     template:`
-        <ion-nav [root]="rootPage"></ion-nav>
+        <ion-nav [root]="rootPage" #content ></ion-nav>
     `
 })
 
 class MyApp {
     rootPage: any;
-    // @ViewChild(Nav) nav: Nav;
+    @ViewChild(Nav) nav: Nav;
 
     constructor(private platform: Platform) {
         this.rootPage = TrnPage;
@@ -21,7 +21,7 @@ class MyApp {
 
     initializeApp() {
         this.platform.ready().then(() => {
-            // this.nav.setRoot(TrnPage);
+            this.nav.setRoot(TrnPage);
             if (StatusBar) StatusBar.styleLightContent();
         });
     }
