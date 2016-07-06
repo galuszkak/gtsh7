@@ -1,0 +1,790 @@
+/* ************************************ From initial style.css ************************************ */
+h2 {
+    color: #444;
+    font-weight: lighter;
+}
+body {
+    padding-left:0;
+    padding-right:0;
+    background-color:#000000;
+}
+nav {
+    margin: auto;
+}
+nav div {
+    display: table-cell;
+    font-size: 12pt;
+    background-color: #000000;
+    color: #ffffff;
+    text-decoration: initial;
+    text-align: center;
+    padding: 10px 0;
+}
+nav div:hover {
+    background-color: #1D3138;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+.icview {
+    color: #000000;
+    background-color: #ffffff;
+    margin: auto;
+    text-align: center;
+    font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+}
+.bar-button-default {
+    color: #ffffff;
+}
+.bar-button-default:hover {
+    color: #ffffff;
+}
+.bar-button-default:hover:not(.disable-hover) {
+    color: #ffffff;
+}
+.toolbar-background {
+    /* background-color: #89bbfa; */
+    /* background-color: #0b2db5; */
+    /* background-color: #a2c9fa; */
+    background-color: #0b2db5;
+    border-color: #0b2db5;
+}
+.toolbar-title {
+    color: #ffffff;
+    font-size: 1.4rem;
+    text-align: center;
+}
+.navbad {
+    margin: 0 auto;
+    min-height: 80px;
+}
+.navsad {
+    margin: 0 auto;
+    min-height: 50px;
+    font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+}
+.navtad {
+    background-color: transparent;
+    /* padding: 0 45px;
+    margin-right: -45px; */
+    font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+}
+.item-inner {
+    background-image: none;
+    border: none;
+}
+/* In order to override right chevron in ion-list ion-item */
+button.item:not([detail-none]) .item-inner,
+a.item:not([detail-none]) .item-inner,
+.item[detail-push] .item-inner {
+    background-image: none;
+    border: none;
+    padding-right: 8px;
+}
+ion-list .item-inner {
+    border: none;
+}
+ion-list > .item:last-child {
+    border-color: #000000;
+}
+.cusitem {
+    color: #000000;
+    background-color: #ffffff;
+    font-size: 14pt;
+    font-weight: bold;
+    border-bottom: solid 1px #000000;
+}
+.cusitema {
+    color: #000000;
+    background-color: #ffffff;
+    font-size: 10pt;
+    font-weight: bold;
+    float: left;
+}
+.cusitemb {
+    color: #0b2db5;
+    font-size: 12pt;
+    font-weight: bold;
+    margin-top: 8px;
+}
+.cusitemc {
+    color: #0b2db5;
+    font-size: 16pt;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.clarrow {
+    font-size: 16pt;
+    font-weight: bold;
+}
+.suinNoCap {
+    border: solid thin black;
+    background: #ffffff;
+}
+.suinCap {
+    border: solid thin black;
+}
+ion-input.suinCap input {
+    text-transform: capitalize;
+}
+/* ************************************ login.ts ******************************************** */
+.logdiv {
+    margin-top: 10px;
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+    font-size: 15pt;
+    color: #000000;
+    font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+}
+
+/* ************************************ From app.cmp.css ************************************ */
+div.container {
+    padding-left:0;
+    padding-right:0;
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ************************************ From ev.cmp.ts ************************************ */
+.item p {
+    font-size: 13px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+    font-weight: 600;
+    color: #000000;
+}
+.evbtn {
+    font-size: 12pt;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-color:#337ab7;
+    color:#ffffff;
+}
+.lbdbtn {
+    font-size: 12pt;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-color:#337ab7;
+    color:#ffffff;
+    display:table-cell;
+    width:20%;
+    white-space:normal;
+}
+.subtn {
+    font-size: 12pt;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    margin:0 20px;
+    background-color:#ffffff;
+    color:#000000;
+}
+.mini1 {
+    color: #ffffff;
+    text-decoration: initial;
+    font-size: 1.7rem;
+}
+.hg4{
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+    font-weight: 600;
+    text-align: center;
+}
+/* ************************************ From al.cmp.css ************************************ */
+.tablea0 {
+    background-color:lightsteelblue;
+    margin-top:0;
+    width:100%;
+    font-weight:bold;
+    text-align:center;
+    color:#000000;
+    font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+}
+.tablea0 td {
+    border:1px solid black;
+    padding:0.2em;
+}
+.tablebodya th {
+    text-align: center;
+}
+.tablerow1 {
+    font-size:13pt;
+    background-color: #b0c4de;
+}
+.l0reven{
+    background-color: #ededed;
+}
+.l0rodd{
+    background-color: #D7EBFA;
+}
+.l1reven{
+    background-color: #b1e9fc;
+}
+.l1rodd{
+    background-color: #D7EBFA;
+}
+.l2reven{
+    background-color: #c7c7c5;
+}
+.l2rodd{
+    background-color: #ededed;
+}
+.mainlbdtitle {
+    background-color:#89bbfa;
+    text-align: center;
+    font-size: 13px;
+    margin: 0 auto;
+    font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+    font-weight: 600;
+    color: #000000;
+    width:100%;
+    padding-top:5px;
+}
+.buttonlbd {
+    width:100%;
+    padding:5px 0;
+    border-width:0;
+    background-color:transparent;
+    font-family:inherit;
+    font-weight: inherit;
+    font-size: inherit;
+    cursor: pointer;
+}
+.albtn {
+    font-size: 12pt;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    display:table-cell;
+    width:20%;
+    white-space:normal;
+    background-color:#337ab7;
+    color:#ffffff;
+}
+.dn {
+    display:none;
+}
+.col05 {
+    width:5%;
+}
+.col10 {
+    width:10%;
+}
+.col15 {
+    width:15%;
+}
+.col20 {
+    width:20%;
+}
+.col25 {
+    width:25%;
+}
+.col30 {
+    width:30%;
+}
+.col40 {
+    width:40%;
+}
+.col45 {
+    width:45%;
+}
+.col50 {
+    width:50%;
+}
+.col60 {
+    width:60%;
+}
+.col70 {
+    width:70%;
+}
+.col80 {
+    width:80%;
+}
+.col90 {
+    width:90%;
+}
+.tablebodya {
+    font-size: 13pt;
+}
+.fltmanpage {
+    margin: 15px auto;
+    width: 100%;
+    z-index: 1;
+    position: relative;
+    font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+}
+.fltlbdpage {
+    margin: 0 auto 15px;
+    width:100%;
+    z-index:1;
+    position:relative;
+    font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+}
+
+/* ************************************ From pt.cmp.ts ************************************ */
+.ptbtn {
+    font-size: 14pt;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-color:#5cb85c;
+    color:#ffffff;
+}
+.ptrow {
+    display:table;
+    width:98%;
+    text-align:center;
+    font-size: 10pt;
+    font-weight:700;
+    border: thin black solid;
+    padding: 3px 0;
+    margin: 5px auto;
+}
+.trgrayhead {
+    background-color:#969696;
+}
+.trgrayodd {
+    background-color:#ededed;
+}
+.trgrayeven {
+    background-color:#c7c7c5;
+}
+
+/* ************************************ From sc.cmp.ts ************************************ */
+@media screen and (max-width:767px) {
+    .scorecard {
+        padding-left: 0;
+        padding-right: 0;
+        width: 100%;
+        margin: auto;
+        z-index: 60;
+        position: relative;
+        display: block;
+        overflow-x: auto;
+        background-color: transparent;
+    }
+    .shnow {
+        width: 150px;
+    }
+    .shnot {
+        width: 50px;
+    }
+}
+@media screen and (min-width:768px) {
+    .scorecard {
+        padding-left: 0;
+        padding-right: 0;
+        width: 100%;
+        margin: auto;
+        z-index: 60;
+        position: relative;
+        display: table;
+        overflow-x: auto;
+        background-color: transparent;
+    }
+    .shnow {
+        width: 150px;
+    }
+    .shnot {
+        width: 30px;
+    }
+}
+.sh {
+    border: none;
+    padding: 0 0 4px;
+    font-size: 14pt;
+    display: table-cell;
+}
+.sccap {
+    font-size:10pt;
+    color:white;
+    padding:0;
+    text-align:center;
+    opacity:1;
+    z-index:1;
+    position:relative;
+    height:20px;
+}
+.sglist {
+    background-color: lightskyblue;
+    position: absolute;
+    z-index: 200;
+    margin: 0 20px;
+    display: block;
+    list-style-type: none;
+    padding: 0;
+    width: 30%;
+}
+.sgbtng {
+    display:table;
+    width:90%;
+    margin:40px auto 0;
+}
+.sgbtng1 {
+    margin:40px auto 0;
+}
+.sgbtn0 {
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    margin: 10px 10%;
+    padding: 5px;
+    font-size: 18pt;
+    color: #000000;
+}
+.sgbtn {
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    margin: 10px 5%;
+    padding: 5px;
+    font-size: 18pt;
+    background-color: #0b2db5;
+    color: #ffffff;
+    width: 90%;
+    line-height: 1.5;
+}
+.sgbtn1 {
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    padding: 2px;
+    font-size: 12pt;
+    background-color: #0b2db5;
+    color: #ffffff;
+    line-height: 1.2;
+}
+.sgw50 {
+    width: 50%;
+    display: table-cell;
+    margin: 0;
+}
+.sgw50a {
+    width: 50%;
+    display: table-cell;
+    margin: 0;
+    background-color: #000000;
+}
+.error-box {
+    color:red;
+    font-size: 10pt;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+/* ************************************ From sh.cmp.ts ************************************ 337ab7 */
+.scorecardtable {
+    table-layout:fixed;
+    margin:0;
+    border:thin solid;
+    border-collapse:collapse;
+    width:100%;
+    text-align:center;
+}
+.rcodd {
+    background-color:#D5E0EB;
+    height:25px;
+    font-size:12pt;
+}
+.rceven {
+    background-color:#F2F9FF;
+    height:25px;
+    font-size:12pt;
+}
+.oicol {
+    background-color: #b0c4de;
+}
+.animate-component{
+    -webkit-transition: all ease-in-out 1.5s;
+    transition: all ease-in-out 1.5s;
+    opacity: 1;
+}
+.animate-component.ng-enter {
+    height: 0;
+    opacity: 0;
+}
+.animate-component.ng-enter-active {
+    opacity: 1;
+    height: 100%;
+}
+.animate-component.ng-leave {
+    opacity: 1;
+    height: 100%;
+}
+.animate-component.ng-leave-active {
+    opacity: 0;
+    height: 0;
+}
+.scorecardscores {
+    z-index:10;
+    position:relative;
+}
+.playertable {
+    table-layout:fixed;
+    margin:0;
+    border:1px solid;
+    border-collapse:collapse;
+    width:100%;
+    text-align:center;
+}
+.plcap {
+    height:20px;
+    opacity:0;
+}
+.team1playereven {
+    background-color:#d7ebfa;
+}
+.team1playerodd {
+    background-color:#d7ebfa;
+}
+.team1gross {
+    background-color:#027D0B;
+}
+.team1net {
+    background-color:#bbdffa;
+}
+.team2playereven {
+    background-color:#ededed;
+}
+.team2playerodd {
+    background-color:#ededed;
+}
+.team2gross {
+    background-color:#994E03;
+}
+.team2net {
+    background-color:#c7c7c5;
+}
+.shc {
+    border: thin solid;
+    padding: 0;
+}
+.shc2x {
+    background-color: #b1e9fc;
+}
+.playerrow {
+    color:#000000;
+    height:30px;
+}
+@media screen and (max-width:767px) {
+    .popp {
+        background-image:url('../../img/pluspop.png');
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+    .pop1 {
+        background-image:url('../../img/onepop.png');
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+    .pop2 {
+        background-image:url('../../img/twopop.png');
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+    .pop3 {
+        background-image:url('../../img/threepop.png');
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+}
+@media screen and (min-width:768px) {
+    .popp {
+        background-image:url('../../img/pluspopw.png');
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+    .pop1 {
+        background-image:url('../../img/onepopw.png');
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+    .pop2 {
+        background-image:url('../../img/twopopw.png');
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+    .pop3 {
+        background-image:url('../../img/threepopw.png');
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+}
+.spclogo {
+    background-image:url('../../img/spclogoc.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100px;
+    width: 40%;
+}
+.manlogo {
+    background-image:url('../../img/manlogoc.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100px;
+    width: 40%;
+}
+.cnqlogo {
+    background-image:url('../../img/cnqlogoc.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100px;
+    width: 40%;
+}
+.cnqchamps {
+    background-image:url('../../img/cnq15champs.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 250px;
+}
+.getting-started {
+    margin: 20px 0;
+    line-height: 22px;
+    font-size: 16px;
+}
+div.selection {
+    font-size: 22px;
+    display: block;
+    text-align: center;
+    padding-top: 5%;
+}
+.tpchg {
+    width:35%;
+    display:table-cell;
+    background-color:#094980;
+    color:#ffffff;
+}
+.tpscr {
+    width:30%;
+    display:table-cell;
+    border:#000000 solid;
+    font-size:20pt;
+}
+.dt100 {
+    width:100%;
+    display:table;
+}
+.dt100f {
+    width:100%;
+    display:table;
+    text-align:center;
+}
+.dtc90 {
+    width:90%;
+    display:table-cell;
+}
+.dtc80 {
+    width:80%;
+    display:table-cell;
+}
+.dtc60 {
+    width:60%;
+    display:table-cell;
+}
+.dtc60t {
+    width:60%;
+    display:table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.dtc30 {
+    width:30%;
+    display:table-cell;
+}
+.dtc80f {
+    width:80%;
+    display:table-cell;
+    border:thin #000000 solid;
+    padding: 3px 0;
+}
+.dtc20 {
+    width:20%;
+    display:table-cell;
+}
+.dtc20f {
+    width:20%;
+    display:table-cell;
+    border:thin #000000 solid;
+    padding: 3px 0;
+}
+.dtc10 {
+    width:10%;
+    display:table-cell;
+}
+.dtc10t {
+    width:10%;
+    display:table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.mt0 {
+    margin-top:0
+}
+.st1 {
+    text-align:center;
+    border:#000000 solid;
+    background-color:#d7ebfa;
+}
+.st2 {
+    text-align:center;
+    border:#000000 solid;
+    background-color:#ededed;
+}
+.sccrdcap {
+    font-size:10pt;
+    color:white;
+    padding:0;
+    text-align:center;
+    opacity:1;
+    z-index:1;
+    position:relative;
+}
+.shchg {
+    background-color:#094980;
+    color:#ffffff
+}
+
+/* **************************  From original Manchester  ************************* */
+
+.flighttable{
+    display:table;
+    width:100%;
+    text-align:center;
+    font-size:10pt;
+    border-top:thin #000000 solid;
+    border-collapse: collapse;
+}
+.flightcell{
+    display:table-cell;
+    border-bottom:thin #000000 solid;
+    border-collapse: collapse;
+    padding: 2px 0;
+}
+.fcleft{
+    border-left:thin #000000 solid;
+}
+.fcright{
+    border-right:thin #000000 solid;
+}
+.fc41{
+    width:41%;
+}
+.fc18{
+    width:18%;
+}
+.fc9{
+    width:9%;
+}
+/*
+.ng-valid[required] {
+    border-left: 5px solid #42A948;
+}
+.ng-invalid {
+    border-left: 5px solid #a94442;
+} */
